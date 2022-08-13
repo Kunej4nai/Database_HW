@@ -1,0 +1,56 @@
+﻿<Window x:Class="SQLite_Homework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLite_Homework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Button x:Name="btnGetData" Content="Show " HorizontalAlignment="Left" Height="46" Margin="376,294,0,0" VerticalAlignment="Top" Width="119" Background="#FFD68C8C" BorderBrush="#FFCA8686" Foreground="White" FontFamily="Dubai" FontSize="18" Click="btnshow_Click"/>
+        <Label Content="Click here to show the data" HorizontalAlignment="Left" Height="39" Margin="365,345,0,0" VerticalAlignment="Top" Width="204" Foreground="#FF581414" FontFamily="Sitka Banner"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" BorderBrush="#FF581414" Foreground="#FF2D0505" Margin="203,129,0,0" FontFamily="Corbel Light" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="txt_lastname" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" BorderBrush="#FF581414" Foreground="#FF2D0505" Margin="203,185,0,0" FontFamily="Corbel Light" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" BorderBrush="#FF581414" Foreground="#FF2D0505" Margin="203,236,0,0" FontFamily="Corbel Light" FontSize="24" TextAlignment="Center"/>
+        <Label Content="USERID" HorizontalAlignment="Left" Height="32" Margin="122,81,0,0" VerticalAlignment="Top" Width="76" Foreground="#FF190404" FontFamily="Sitka Banner" FontSize="20"/>
+        <Label Content="NAME" HorizontalAlignment="Left" Height="32" Margin="122,129,0,0" VerticalAlignment="Top" Width="58" Foreground="#FF190404" FontFamily="Sitka Banner" FontSize="20"/>
+        <Label Content="LASTNAME" HorizontalAlignment="Left" Height="32" Margin="98,185,0,0" VerticalAlignment="Top" Width="100" Foreground="#FF190404" FontFamily="Sitka Banner" FontSize="20"/>
+        <Label Content="EMAIL" HorizontalAlignment="Left" Height="32" Margin="122,236,0,0" VerticalAlignment="Top" Width="64" Foreground="#FF190404" FontFamily="Sitka Banner" FontSize="20"/>
+        <TextBox x:Name="txt_uid" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" BorderBrush="#FF581414" Foreground="#FF2D0505" Margin="203,81,0,0" FontFamily="Corbel Light" FontSize="24" TextAlignment="Center"/>
+        <Button x:Name="btnadd" Content="Add" HorizontalAlignment="Left" Height="46" Margin="203,294,0,0" VerticalAlignment="Top" Width="119" Background="#FFD68C8C" BorderBrush="#FFCA8686" Foreground="White" FontFamily="Dubai" FontSize="18" Click="btnadd_Click"/>
+        <Label Content="Click here to add  " HorizontalAlignment="Left" Height="39" Margin="212,345,0,0" VerticalAlignment="Top" Width="102" Foreground="#FF581414" FontFamily="Sitka Banner" RenderTransformOrigin="0.515,0.587"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="560,81,0,0" VerticalAlignment="Top" Width="69" Source="/database-5-xxl-removebg-preview.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-11.696"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="253" Margin="520,115,0,0" VerticalAlignment="Top" Width="241" Source="/1-removebg-preview.png"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="730,110,0,0" VerticalAlignment="Top" Width="40" Source="/database-5-xxl-removebg-preview.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="37.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="50" Margin="551,300,0,0" VerticalAlignment="Top" Width="58" Source="/database-5-xxl-removebg-preview.png" RenderTransformOrigin="2.037,2.49">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="30.692"/>
+                    <TranslateTransform X="-63.275" Y="31.568"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Window>
